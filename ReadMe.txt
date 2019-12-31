@@ -10,6 +10,9 @@
   git clone -b hexo_branch https://github.com/wuxiaotudev/wuxiaotudev.github.io.git
 
 4. 推送到指定分支
+  git add .
+  git commit -m "XXX"
+  git push origin hexo_branch
 
 // 创建新的博客文件
 hexo_blog/source/创建一个xxx.md
