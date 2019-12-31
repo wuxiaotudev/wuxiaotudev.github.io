@@ -25,3 +25,6 @@ hexo d
 
 // 本地运行
 hexo s
+
+// 清除
+hexo clean
