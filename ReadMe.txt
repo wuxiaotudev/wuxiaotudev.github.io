@@ -1,7 +1,18 @@
 
-1. 下载 安装 nodes   https://nodejs.org/en/
+1. 下载 安装 nodes
+  https://nodejs.org/en/
 
-2. 克隆分支hexo到本地
+2. 安装hexo
+  npm install -g hexo-cli
+  npm install hexo --save
+
+3. 克隆分支hexo到本地
+  git clone -b hexo_branch https://github.com/wuxiaotudev/wuxiaotudev.github.io.git
+
+4. 推送到指定分支
+
+// 创建新的博客文件
+hexo_blog/source/创建一个xxx.md
 
 // 生在静态博客文件 
 hexo g
@@ -11,6 +22,3 @@ hexo d
 
 // 本地运行
 hexo s
-
-// 创建新的博客文件
-hexo_blog/source/创建一个xxx.md
